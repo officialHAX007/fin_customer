@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    instrumentationHook: true,
-  },
+  basePath: '/fin-customer',      // makes pages live at /fin-customer
+  experimental: { instrumentationHook: true },
 };
-
 export default nextConfig;
